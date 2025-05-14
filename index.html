@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blend Mart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            color: black;
+        }
+        header {
+            background-color: maroon;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        section {
+            margin: 20px;
+        }
+        button {
+            background-color: maroon;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .dynamic-style {
+            color: black;
+            font-size: 20px;
+        }
+        .added-element {
+            margin-top: 20px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blend Mart</h1>
+    </header>
+
+    <section>
+        <p id="text-content">This is a paragraph that will change.</p>
+        <button id="change-text-btn">Change Text Content</button>
+    </section>
+
+    <section>
+        <p id="style-text">This text will have its style modified.</p>
+        <button id="change-style-btn">Change Text Style</button>
+    </section>
+
+    <section>
+        <button id="add-remove-btn">Add or Remove an Element</button>
+        <div id="dynamic-content"></div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
